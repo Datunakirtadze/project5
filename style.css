@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(230, 220, 207);
+}
+
+.div1 {
+    display: flex;
+    flex-direction: row;
+    margin: 100px auto;
+    gap: 0px;
+    border-radius: 10px;
+    background-color: white;
+    max-width: 900px;
+    width: 100%;
+}
+
+.div2 {
+    background-color: hsl(31, 77%, 52%);
+    width: 33.33%;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.div3 {
+  background-color: hsl(184, 100%, 22%);
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-top: 30px;
+}
+
+.div4 {
+    background-color: hsl(179, 100%, 13%);
+    width: 33.33%;
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-top: 30px;
+}
+
+img {
+    width: 50px;
+    height: 30px;
+
+}
+
+h1 {
+    color: White;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.p1 {
+    color: rgb(231, 199, 164);
+    font-size: 18px;
+    margin-right: 50px;
+}
+
+.button1 {
+    width: 60%;
+    margin-top: 80px;
+    border: 1px solid white;
+    background-color: white;
+    color: hsl(31, 77%, 52%);
+    margin-bottom: 30px;
+    border-radius: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    transition: 2s;
+}
+
+
+.p2 {
+    color: rgb(63, 164, 198);
+    font-size: 18px;
+    margin-right: 50px;
+}
+
+.button2 {
+    width: 60%;
+    margin-top: 80px;
+    border: 1px solid white;
+    background-color: white;
+    color: hsl(184, 100%, 22%);
+    margin-bottom: 30px;
+    border-radius: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    transition: 2s;
+}
+
+.p3 {
+    color: rgb(68, 145, 95);
+    font-size: 18px;
+    margin-right: 50px;
+}
+
+.button3 {
+    width: 60%;
+    margin-top: 80px;
+    border: 1px solid white;
+    background-color: white;
+    color: hsl(179, 100%, 13%);
+    margin-bottom: 30px;
+    border-radius: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    transition: 2s;
+}
+
+.button1:hover {
+    background-color: hsl(31, 34%, 44%);
+    border: 1px solid hsl(31, 34%, 44%);
+    color: white;
+}
+
+.button2:hover {
+    background-color: hsl(192, 92%, 10%);
+    border: 1px solid hsl(192, 92%, 10%);
+    color: white;
+}
+
+.button3:hover {
+    background-color: hsl(140, 33%, 28%);
+    border: 1px solid hsl(140, 33%, 28%);
+    color: white;
+}
+
+
+@media screen and (max-width:630px) {
+    .div1 {
+        display: flex;
+    flex-direction: column;
+    
+    }
+    .div2 {
+        width: 100%;
+        border-radius: 10px 10px 0px 0px  }
+    .div3 {
+        width: 100%;
+        border-radius: 0px;
+    }
+    .div4 {
+        width: 100%;
+        border-radius: 0px 0px 10px 10px;
+    }
+}
