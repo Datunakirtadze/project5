@@ -4,6 +4,10 @@
 
 body {
     background-color: rgb(230, 220, 207);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 .div1 {
